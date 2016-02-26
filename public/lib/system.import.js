@@ -1,0 +1,1 @@
+System.import('main').catch(console.log.bind(console));

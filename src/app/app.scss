@@ -1,0 +1,8 @@
+.router-link-active {
+  li & {
+    background-color: #080808;
+    &:hover {
+      background-color: red;
+    }
+  } 
+}

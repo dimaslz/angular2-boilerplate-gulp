@@ -1,0 +1,43 @@
+@import '../../node_modules/compass-mixins/lib/compass';
+@import '../../node_modules/compass-mixins/lib/animation/core';
+@import '../../node_modules/compass-mixins/lib/compass/css3/user-interface';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap-sprockets';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+// Include overrides
+@import 'bootstrap_overrides/overrides';
+
+// Helper style files
+@import 'helpers/helpers';
+@import 'helpers/mixins';
+@import 'helpers/variables';
+
+// Include module styles
+@import 'includes';
+
+html {
+    min-height: 100%;
+}
+body {
+    background: rgba(226, 226, 226, 0.3);
+    font-family: 'Arial';
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+    display: block;
+    padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    padding: 10px 50px;
+    width: 100%;
+    background: white;
+}
